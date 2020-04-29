@@ -42,7 +42,7 @@ body {
 
 .header {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,12 +66,12 @@ body {
   color: #000000;
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.76px;
-  margin: 10px;
+  letter-spacing: 0.56px;
+  margin: 8px;
 }
 
 .menu {
-  margin-left: 30px;
+  margin-left: 28px;
   width: 100%;
 }
 
@@ -88,6 +88,8 @@ body {
   font-size: 12px;
   padding-bottom: 7px;
   border-bottom: 1px solid #d9d9d9;
+  margin: -2px 0;
+  letter-spacing: 0.3px;
 }
 
 .link {
@@ -134,7 +136,7 @@ button {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-top: 20px;
+  margin-top: 23px;
 }
 
 .menu__basket {
@@ -144,9 +146,9 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-flex: 0.95;
-      -ms-flex: 0.95;
-          flex: 0.95;
+  -webkit-box-flex: 0.927;
+      -ms-flex: 0.927;
+          flex: 0.927;
 }
 
 .basket__buttons {
@@ -168,16 +170,25 @@ button {
 }
 
 .button__basket {
+  font-size: 12px;
   text-decoration: underline;
 }
 
 .button__img {
   position: absolute;
-  left: -25px;
+  left: -27px;
+}
+
+.basket__cart {
+  font-size: 14px;
 }
 
 .img__star {
-  left: -22px;
+  left: -25px;
+}
+
+.img__cart {
+  left: -30px;
 }
 
 .basket__preview {
@@ -196,12 +207,12 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 75px;
+  min-width: 72px;
   border: 1px solid #d9d9d9;
 }
 
 .preview__img:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 .contacts__time {
@@ -221,7 +232,7 @@ button {
 }
 
 .contacts__tel {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 .contact__tel {
@@ -229,6 +240,10 @@ button {
   font-size: 25px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.contact__tel span {
+  font-family: Helios Cond Bold;
 }
 
 .contacts__position {
@@ -242,7 +257,7 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 12px;
-  padding-top: 8px;
+  padding-top: 4px;
   border-top: 1px solid #d9d9d9;
 }
 
@@ -293,14 +308,16 @@ button {
   text-align: center;
   width: 100%;
   background-color: #252525;
-  padding: 11px 25px;
+  padding: 11px;
 }
 
 .nav__link {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
-  padding: 12px 15px;
+  padding: 12px 14px;
+  margin-left: 2px;
+  letter-spacing: 0.30px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
